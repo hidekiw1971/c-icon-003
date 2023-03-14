@@ -1,0 +1,29 @@
+@use "global" as *;
+
+span {
+    display: block;
+    width: rem(0);
+    border-top: rem(30) solid rgba(255, 0, 0, 0.5);
+    border-right: rem(30) solid rgba(255, 77, 77, 0.5);
+    border-bottom: rem(30) solid rgba(255, 0, 0, 0.5);
+    border-left: rem(30) solid rgba(255, 77, 77, 0.5);
+    position: relative;
+    // border-radius: 100%; // 丸にしたい時はここで調整
+
+    @include mq(md) {
+        // 
+    }
+}
+
+span::before {
+    content: "New";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+
+    @include mq(md) {
+        // 
+    }
+}
