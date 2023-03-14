@@ -1,4 +1,4 @@
-画像をコピペ
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/99580997/225130250-42bb9b40-1b67-4bb3-859c-b84d34bb5b6a.png">
 
 # compornent（共通部品）
 - 四角形（カードのNew表示などで使える。）
